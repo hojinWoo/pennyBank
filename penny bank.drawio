@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-01T09:00:58.128Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="Yc0LZmlY9qrc6CKmnWIF" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-01T09:17:47.188Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15" etag="TzU2uWTcbSx11bO15lkl" version="14.4.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1359" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1390" pageHeight="980" math="0" shadow="0">
       <root>
@@ -33,10 +33,10 @@
         <mxCell id="T4zctM7MsMs5SMgnD1SF-21" value="+ 통화코드 : VARCHAR2(3)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
           <mxGeometry y="184" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-6" value="+ 현재잔액 : NUMBER(10,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-6" value="+ 현재잔액 : NUMBER(16,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
           <mxGeometry y="210" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-7" value="+ B/S잔액 : NUMBER(10,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-7" value="+ B/S잔액 : NUMBER(16,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
           <mxGeometry y="236" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="T4zctM7MsMs5SMgnD1SF-8" value="+ B/S계정과목코드 : VARCHAR2(10)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
@@ -48,7 +48,7 @@
         <mxCell id="T4zctM7MsMs5SMgnD1SF-10" value="+ 예금과목코드 : VARCHAR2(2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
           <mxGeometry y="314" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-11" value="+ 적립형태코드 : VARCHAR2(1)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-11" value="+ 적립형태코드 : CHAR(1)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
           <mxGeometry y="340" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="T4zctM7MsMs5SMgnD1SF-5" value="+ 신규일자 : VARCHAR2(8)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
@@ -72,7 +72,7 @@
         <mxCell id="T4zctM7MsMs5SMgnD1SF-16" value="+ 휴면계좌등록일자 : VARCHAR2(8)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
           <mxGeometry y="522" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-18" value="+ 휴면계좌여부 : VARCHAR2(1)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-18" value="+ 휴면계좌여부 : CHAR(1)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--0">
           <mxGeometry y="548" width="220" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="고객기본" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
@@ -103,10 +103,10 @@
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--14" value="거래일자 : VARCHAR2(8)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
           <mxGeometry y="52" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-27" value="거래일련번호 : NUMBER(10)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--13">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-27" value="거래일련번호 : NUMBER(5)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--13">
           <mxGeometry y="78" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-28" value="거래상세일련번호 : NUMBER(10)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--13">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-28" value="거래상세일련번호 : NUMBER(5)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--13">
           <mxGeometry y="104" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zkfFHV4jXpPFQw0GAbJ--15" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--13" vertex="1">
@@ -124,10 +124,10 @@
         <mxCell id="T4zctM7MsMs5SMgnD1SF-48" value="업무종류상세코드 : VARCHAR2(4)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--13">
           <mxGeometry y="216" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-35" value="취소구분코드 : VARCHAR2(1)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--13">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-35" value="취소구분코드 : CHAR(1)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--13">
           <mxGeometry y="242" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-39" value="잔액변동구분코드 : VARCHAR2(1)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--13">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-39" value="잔액변동구분코드 : CHAR(1)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--13">
           <mxGeometry y="268" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="T4zctM7MsMs5SMgnD1SF-47" value="금액유형코드 : VARCHAR2(2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--13">
@@ -139,10 +139,10 @@
         <mxCell id="T4zctM7MsMs5SMgnD1SF-40" value="거래통화코드 : VARCHAR(3)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--13">
           <mxGeometry y="346" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-41" value="거래금액 : NUMBER(10,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--13">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-41" value="거래금액 : NUMBER(16,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--13">
           <mxGeometry y="372" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-42" value="거래후잔액 : NUMBER(10,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--13">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-42" value="거래후잔액 : NUMBER(16,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--13">
           <mxGeometry y="398" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="T4zctM7MsMs5SMgnD1SF-43" value="거래시각 : VARCHAR2(6)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zkfFHV4jXpPFQw0GAbJ--13">
@@ -226,19 +226,19 @@
         <mxCell id="T4zctM7MsMs5SMgnD1SF-61" value="시스템변경일시 : TIMESTAMP(6)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-54">
           <mxGeometry y="113" width="190" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-62" value="입금금액 : NUMBER(10,2)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-54">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-62" value="입금금액 : NUMBER(16,2)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-54">
           <mxGeometry y="140" width="190" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-63" value="출금금액 : NUMBER(10,2)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-54">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-63" value="출금금액 : NUMBER(16,2)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-54">
           <mxGeometry y="167" width="190" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-64" value="현재잔액 : NUMBER(10,2)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-54">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-64" value="현재잔액 : NUMBER(16,2)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-54">
           <mxGeometry y="194" width="190" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-65" value="부리잔액 : NUMBER(10,2)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-54">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-65" value="부리잔액 : NUMBER(16,2)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-54">
           <mxGeometry y="221" width="190" height="27" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-66" value="개시잔액 : NUMBER(10,2)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-54">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-66" value="개시잔액 : NUMBER(16,2)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-54">
           <mxGeometry y="248" width="190" height="27" as="geometry" />
         </mxCell>
         <mxCell id="T4zctM7MsMs5SMgnD1SF-67" value="이자세금" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -252,171 +252,156 @@
         <mxCell id="T4zctM7MsMs5SMgnD1SF-69" value="거래일자 : VARCHAR2(8)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
           <mxGeometry y="52" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-70" value="거래일련번호 : NUMBER(10)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-70" value="거래일련번호 : NUMBER(5)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
           <mxGeometry y="78" width="200" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-71" value="거래상세일련번호 : NUMBER(10)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
-          <mxGeometry y="104" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="T4zctM7MsMs5SMgnD1SF-72" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
-          <mxGeometry y="130" width="200" height="8" as="geometry" />
+          <mxGeometry y="104" width="200" height="8" as="geometry" />
         </mxCell>
         <mxCell id="T4zctM7MsMs5SMgnD1SF-73" value="시스템등록일시 : TIMESTAMP(6)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
-          <mxGeometry y="138" width="200" height="26" as="geometry" />
+          <mxGeometry y="112" width="200" height="26" as="geometry" />
         </mxCell>
         <mxCell id="T4zctM7MsMs5SMgnD1SF-74" value="시스템변경일시 : TIMESTAMP(6)&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
+          <mxGeometry y="138" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-75" value="이자계산시작일자 : VARCHAR2(8)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
           <mxGeometry y="164" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-75" value="업무종류코드 : VARCHAR2(3)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-76" value="이자계산종료일자 : VARCHAR2(8)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
           <mxGeometry y="190" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-76" value="업무종류상세코드 : VARCHAR2(4)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-77" value="적용금리 : NUMBER(11,8)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
           <mxGeometry y="216" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-77" value="취소구분코드 : VARCHAR2(1)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-78" value="거래원금 : NUMBER(16,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
           <mxGeometry y="242" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-78" value="잔액변동구분코드 : VARCHAR2(1)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-79" value="세전이자 : NUMBER(16,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
           <mxGeometry y="268" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-79" value="금액유형코드 : VARCHAR2(2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-80" value="환입이자 : NUMBER(16,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
           <mxGeometry y="294" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-80" value="거래적요코드 : VARCHAR2(3)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-81" value="세율 : NUMBER(11,8)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
           <mxGeometry y="320" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-81" value="거래통화코드 : VARCHAR(3)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-82" value="세금합계금액 : NUMBER(16,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
           <mxGeometry y="346" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-82" value="거래금액 : NUMBER(10,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-83" value="세후이자 : NUMBER(16,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
           <mxGeometry y="372" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-83" value="거래후잔액 : NUMBER(10,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-161" value="차감지급금액 : NUMBER(16,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
           <mxGeometry y="398" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-84" value="거래시각 : VARCHAR2(6)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-162" value="해지수수료 : NUMBER(16,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
           <mxGeometry y="424" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-85" value="통장적요 : VARCHAR2(100)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-84" value="거래상세일련번호 : NUMBER(5) (FK)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-67">
           <mxGeometry y="450" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-86" value="이자계산내역" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="400" y="790" width="200" height="502" as="geometry">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-124" value="이자계산내역" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="790" width="200" height="460" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-87" value="계약번호 : VARCHAR2(20)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-86">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-125" value="계약번호 : VARCHAR2(20)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-124">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-88" value="거래일자 : VARCHAR2(8)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-86">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-126" value="거래일자 : VARCHAR2(8)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-124">
           <mxGeometry y="52" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-89" value="거래일련번호 : NUMBER(10)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-86">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-127" value="거래일련번호 : NUMBER(5)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-124">
           <mxGeometry y="78" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-90" value="거래상세일련번호 : NUMBER(10)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-86">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-128" value="이자일련번호 : NUMBER(5)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-124">
           <mxGeometry y="104" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-91" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-86">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-129" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-124">
           <mxGeometry y="130" width="200" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-92" value="시스템등록일시 : TIMESTAMP(6)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-86">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-130" value="시스템등록일시 : TIMESTAMP(6)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-124">
           <mxGeometry y="138" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-93" value="시스템변경일시 : TIMESTAMP(6)&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-86">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-131" value="시스템변경일시 : TIMESTAMP(6)&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-124">
           <mxGeometry y="164" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-94" value="업무종류코드 : VARCHAR2(3)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-86">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-142" value="이자계산방법코드 : CHAR(1)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-124">
           <mxGeometry y="190" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-95" value="업무종류상세코드 : VARCHAR2(4)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-86">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-132" value="이자계산시작일자 : VARCHAR2(8)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-124">
           <mxGeometry y="216" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-96" value="취소구분코드 : VARCHAR2(1)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-86">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-133" value="이자계산종료일자 : VARCHAR2(8)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-124">
           <mxGeometry y="242" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-97" value="잔액변동구분코드 : VARCHAR2(1)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-86">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-135" value="이자계산대상원금 : NUMBER(16,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-124">
           <mxGeometry y="268" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-98" value="금액유형코드 : VARCHAR2(2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-86">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-134" value="이자계산일수 : NUMBER(5)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-124">
           <mxGeometry y="294" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-99" value="거래적요코드 : VARCHAR2(3)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-86">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-136" value="발생이자 : NUMBER(16,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-124">
           <mxGeometry y="320" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-100" value="거래통화코드 : VARCHAR(3)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-86">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-137" value="금리적용구분코드 : CHAR(1)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-124">
           <mxGeometry y="346" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-101" value="거래금액 : NUMBER(10,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-86">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-138" value="기준금리 : NUMBER(11,8)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-124">
           <mxGeometry y="372" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-102" value="거래후잔액 : NUMBER(10,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-86">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-139" value="가산금리 : NUMBER(11,8)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-124">
           <mxGeometry y="398" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-103" value="거래시각 : VARCHAR2(6)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-86">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-140" value="적용금리 : NUMBER(11,8)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-124">
           <mxGeometry y="424" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-104" value="통장적요 : VARCHAR2(100)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-86">
-          <mxGeometry y="450" width="200" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-105" value="세금계산내역" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="630" y="790" width="200" height="502" as="geometry">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-143" value="세금계산내역" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="610" y="790" width="200" height="380" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-106" value="계약번호 : VARCHAR2(20)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-105">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-144" value="계약번호 : VARCHAR2(20)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-143">
           <mxGeometry y="26" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-107" value="거래일자 : VARCHAR2(8)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-105">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-145" value="거래일자 : VARCHAR2(8)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-143">
           <mxGeometry y="52" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-108" value="거래일련번호 : NUMBER(10)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-105">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-146" value="거래일련번호 : NUMBER(5)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-143">
           <mxGeometry y="78" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-109" value="거래상세일련번호 : NUMBER(10)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-105">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-147" value="세금일련번호 : NUMBER(5)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-143">
           <mxGeometry y="104" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-110" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-105">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-148" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-143">
           <mxGeometry y="130" width="200" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-111" value="시스템등록일시 : TIMESTAMP(6)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-105">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-149" value="시스템등록일시 : TIMESTAMP(6)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-143">
           <mxGeometry y="138" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-112" value="시스템변경일시 : TIMESTAMP(6)&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-105">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-150" value="시스템변경일시 : TIMESTAMP(6)&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-143">
           <mxGeometry y="164" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-113" value="업무종류코드 : VARCHAR2(3)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-105">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-151" value="세금종류코드 : VARCHAR2(2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-143">
           <mxGeometry y="190" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-114" value="업무종류상세코드 : VARCHAR2(4)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-105">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-152" value="세금계산시작일자 : VARCHAR2(8)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-143">
           <mxGeometry y="216" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-115" value="취소구분코드 : VARCHAR2(1)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-105">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-153" value="세금계산종료일자 : VARCHAR2(8)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-143">
           <mxGeometry y="242" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-116" value="잔액변동구분코드 : VARCHAR2(1)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-105">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-154" value="과세표준금액 : NUMBER(16,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-143">
           <mxGeometry y="268" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-117" value="금액유형코드 : VARCHAR2(2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-105">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-155" value="세금계산일수 : NUMBER(5)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-143">
           <mxGeometry y="294" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-118" value="거래적요코드 : VARCHAR2(3)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-105">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-158" value="적용세율 : NUMBER(11,8)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-143">
           <mxGeometry y="320" width="200" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-119" value="거래통화코드 : VARCHAR(3)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-105">
+        <mxCell id="T4zctM7MsMs5SMgnD1SF-159" value="세금금액 : NUMBER(16,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-143">
           <mxGeometry y="346" width="200" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-120" value="거래금액 : NUMBER(10,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-105">
-          <mxGeometry y="372" width="200" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-121" value="거래후잔액 : NUMBER(10,2)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-105">
-          <mxGeometry y="398" width="200" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-122" value="거래시각 : VARCHAR2(6)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-105">
-          <mxGeometry y="424" width="200" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="T4zctM7MsMs5SMgnD1SF-123" value="통장적요 : VARCHAR2(100)" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="T4zctM7MsMs5SMgnD1SF-105">
-          <mxGeometry y="450" width="200" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
