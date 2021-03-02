@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-02T11:37:57.937Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="BZtNjC2n-RrjZ7KMgcWU" version="14.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-02T11:38:11.848Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.190 Safari/537.36" etag="_Ye7PoQMKUnI4GtOBBDo" version="14.4.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1422" dy="705" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="980" pageHeight="1390" math="0" shadow="0">
       <root>
@@ -220,7 +220,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NJwDhQcONGUGnTOFV3fi-85" value="월요일~목요일에 신청한 고객은 해당 주부터 금~일요일에 신청한 고객은 다음 주부터 저축" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;strokeColor=#000000;size=40;position=0.13;position2=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="807" y="50" width="173" height="90" as="geometry" />
+          <mxGeometry x="800" y="50" width="173" height="90" as="geometry" />
         </mxCell>
         <mxCell id="NJwDhQcONGUGnTOFV3fi-86" value="다음 주 잔액을&lt;br/&gt;예측하여 산출한 1 천원 이상 5 천원이하 금액&amp;nbsp;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;strokeColor=#000000;base=30;size=30;position=0.58;position2=0.92;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="530" y="170" width="120" height="90" as="geometry" />
